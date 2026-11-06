@@ -1,0 +1,14 @@
+{
+  "name": "power-agent",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Power Agent: one-file autonomous coding agent with a chat UI",
+  "main": "ai.js",
+  "scripts": {
+    "start": "node ai.js",
+    "update": "node ai.js --update-only"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
